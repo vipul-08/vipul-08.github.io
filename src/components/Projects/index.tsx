@@ -14,7 +14,7 @@ const Projects = () => {
                             <div className="project-card-content">
                                 <div className="project-card-title">Personal Website</div>
                             </div>
-                            <a target="_blank" href="https://github.com/vipul-08/vipul-08.github.io">
+                            <a target="_blank" href="https://www.vipul-raghuvanshi.tk">
                                 <div className="project-card-btn project-card-blackbutton">GitHub</div>
                             </a>
                         </div>
@@ -25,7 +25,7 @@ const Projects = () => {
                             <div className="project-card-content">
                                 <div className="project-card-title">Personal Website</div>
                             </div>
-                            <a target="_blank" href="https://github.com/vipul-08/vipul-08.github.io">
+                            <a target="_blank" href="https://www.vipul-raghuvanshi.tk">
                                 <div className="project-card-btn project-card-blackbutton">GitHub</div>
                             </a>
                         </div>
