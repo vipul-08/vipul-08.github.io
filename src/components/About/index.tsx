@@ -125,30 +125,32 @@ const About = () => {
                     <div className="col about-skillcol">
                         <div className="title">Skills</div>
                         <div className="about-timeline">
-
-                            <div className="skills-title">Languages</div>
-                            <div className="skills-content">
-                                <div className="skills-tile">Java</div>
-                                <div className="skills-tile">JavaScript</div>
-                                <div className="skills-tile">Python</div>
-                                <div className="skills-tile">Go</div>
-                                <div className="skills-tile">PHP</div>
-                                <div className="skills-tile">Android</div>
+                            <div className="skill-container">
+                                <div className="skills-title">Languages</div>
+                                <div className="skills-content">
+                                    <div className="skills-tile">Java</div>
+                                    <div className="skills-tile">JavaScript</div>
+                                    <div className="skills-tile">Python</div>
+                                    <div className="skills-tile">Go</div>
+                                    <div className="skills-tile">PHP</div>
+                                    <div className="skills-tile">Android</div>
+                                </div>
                             </div>
-
-                            <div className="skills-title">Technologies</div>
-                            <div className="skills-content">
-                                <div className="skills-tile">Git</div>
-                                <div className="skills-tile">CI/CD</div>
-                                <div className="skills-tile">Docker</div>
-                                <div className="skills-tile">Jira</div>
-                                <div className="skills-tile">Linux</div>
-                                <div className="skills-tile">Node.js</div>
-                                <div className="skills-tile">React</div>
-                                <div className="skills-tile">Spring</div>
-                                <div className="skills-tile">Laravel</div>
+                            
+                            <div className="skill-container">
+                                <div className="skills-title">Technologies</div>
+                                <div className="skills-content">
+                                    <div className="skills-tile">Git</div>
+                                    <div className="skills-tile">CI/CD</div>
+                                    <div className="skills-tile">Docker</div>
+                                    <div className="skills-tile">Jira</div>
+                                    <div className="skills-tile">Linux</div>
+                                    <div className="skills-tile">Node.js</div>
+                                    <div className="skills-tile">React</div>
+                                    <div className="skills-tile">Spring</div>
+                                    <div className="skills-tile">Laravel</div>
+                                </div>
                             </div>
-
                         </div>
                     </div>
                 </div>

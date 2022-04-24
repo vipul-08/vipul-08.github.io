@@ -86,7 +86,7 @@ a, a:active, a:hover {
     position: relative;
     display: flex;
     justify-content: flex-end;
-    max-width: 120rem;
+    max-width: 100%;
     margin: 0 auto;
     align-items: center;
     padding: 1rem;
@@ -99,7 +99,7 @@ a, a:active, a:hover {
 .nav-item {
     position: relative;
     display: inline-block;
-    font-size: 1.2rem;
+    font-size: 2rem;
     margin-right: 2rem;
 }
 
@@ -157,15 +157,18 @@ a, a:active, a:hover {
     justify-content: center;
     align-items: center;
     padding: .3rem;
-    background: url(assets/earth.svg);
-    border-radius: 50%;
+    /* background: url(assets/earth.svg); */
+    /* border: 3px solid white; */
+    /* background: white; */
+    /* border-radius: 50%; */
 }
 
 .hero-profile-img {
+    color: white;
     width: 100%;
     -webkit-transform: scale(.95);
     transform: scale(.95);
-    border-radius: 50%;
+    /* border-radius: 50%; */
 }
 
 .hero-icons {
@@ -298,7 +301,7 @@ a, a:active, a:hover {
 .about-card {
     display: flex;
     height: 15rem;
-    background-color: #181a1b;
+    background-color: #3d4c54;
     border-radius: 2rem;
     box-shadow: 0 3px 5px rgba(0, 0, 0, .05);
     padding: 2rem;
@@ -342,7 +345,20 @@ a, a:active, a:hover {
     max-width: 30rem;
     color: lightgray;
     border-radius: 2rem;
-    background-color: #181a1b;
+    background-color: #3d4c54;
+}
+
+.skill-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    margin-bottom: 2rem;
+    max-width: 30rem;
+    padding: 10px;
+    color: lightgray;
+    border-radius: 2rem;
+    background-color: #3d4c54;
 }
 
 .timeline-card:before {
@@ -442,7 +458,7 @@ a, a:active, a:hover {
     left: 0;
     right: 0;
     z-index: -1;
-    background: url(assets/jpl.jpg) 50%;
+    /* background: url(assets/jpl.jpg) 50%; */
     filter: brightness(15%);
     background-size: cover;
 }
@@ -493,9 +509,9 @@ a, a:active, a:hover {
     margin: 1rem 1rem 2rem;
     width: 24rem;
     height: 27rem;
-    background-color: #181a1b;
+    background-color: #3d4c54;
     border-radius: 2rem;
-    border: .3rem solid #181a1b;
+    border: .3rem solid #3d4c54;
 }
 
 @media (max-width:575px) {

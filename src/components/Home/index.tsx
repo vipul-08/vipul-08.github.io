@@ -1,4 +1,5 @@
 import React from 'react';
+import laptopSvg from '../../assets/vipulVector.png'
 
 const Home = () => {
     return (
@@ -6,7 +7,9 @@ const Home = () => {
             <div className="hero-container">
                 <div className="hero-profile">
 
-                    <div className="hero-profile-img-wrapper"><img className="hero-profile-img" src="assets/astronaut.svg" /></div>
+                    <div className="hero-profile-img-wrapper">
+                        <img alt="LaptopSvg" src={laptopSvg} className="hero-profile-img" />
+                    </div>
 
                     <div className="hero-profile-content">
                         <div className="hero-headline">Vipul Singh Raghuvanshi</div>
