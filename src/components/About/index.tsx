@@ -1,4 +1,8 @@
 import React from 'react';
+import researchAsset from '../../assets/research.svg'
+import wellAsset from '../../assets/well.svg'
+import codeAsset from '../../assets/code.svg'
+import marsAsset from '../../assets/mars.svg'
 
 const About = () => {
     return (
@@ -11,7 +15,7 @@ const About = () => {
                             <div className="about-card-wrapper">
                                 <div className="about-card">
                                     <div className="about-card-icon-wrapper">
-                                        <div className="about-card-icon"><img style={{ verticalAlign: 'middle' }} src="assets/research.svg" /></div>
+                                        <div className="about-card-icon"><img style={{ verticalAlign: 'middle' }} src={researchAsset} /></div>
                                     </div>
                                     <div className="about-card-title">
                                         Software Engineer II
@@ -24,7 +28,7 @@ const About = () => {
                             <div className="about-card-wrapper">
                                 <div className="about-card">
                                     <div className="about-card-icon-wrapper">
-                                        <div className="about-card-icon"><img src="assets/well.svg" /></div>
+                                        <div className="about-card-icon"><img src={wellAsset} /></div>
                                     </div>
                                     <div className="about-card-title">
                                         Studied at
@@ -37,7 +41,7 @@ const About = () => {
                             <div className="about-card-wrapper">
                                 <div className="about-card">
                                     <div className="about-card-icon-wrapper">
-                                        <div className="about-card-icon"><img src="assets/code.svg" /></div>
+                                        <div className="about-card-icon"><img src={codeAsset} /></div>
                                     </div>
                                     <div className="about-card-title">
                                         Software Engineer
@@ -50,7 +54,7 @@ const About = () => {
                             <div className="about-card-wrapper">
                                 <div className="about-card">
                                     <div className="about-card-icon-wrapper">
-                                        <div className="about-card-icon"><img src="assets/mars.svg" /></div>
+                                        <div className="about-card-icon"><img src={marsAsset} /></div>
                                     </div>
                                     <div className="about-card-title">
                                         Interests
