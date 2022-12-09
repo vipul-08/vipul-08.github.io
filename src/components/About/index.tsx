@@ -102,24 +102,27 @@ const About = () => {
                             <div className="timeline-card timeline-card-blue">
                                 <div className="timeline-card-title">Software Engineer II</div>
                                 <div className="timeline-card-subtitle">Hashedin by Deloitte</div>
-                                <div className="timeline-card-content">&middot; Point 1</div>
-                                <div className="timeline-card-content">&middot; Point 2</div>
+                                <div className="timeline-card-content">&middot; Working for HCSC, a US Client. Working on a project
+which is responsible for health insurance claims.</div>
+                                <div className="timeline-card-content">&middot; Daily tasks include writing microservices in Java</div>
                                 <div className="timeline-card-time">July 2021 - Present</div>
                             </div>
 
                             <div className="timeline-card timeline-card-blue">
                                 <div className="timeline-card-title">Web Application Developer</div>
                                 <div className="timeline-card-subtitle">Media.net</div>
-                                <div className="timeline-card-content">&middot; Point 1</div>
-                                <div className="timeline-card-content">&middot; Point 2</div>
+                                <div className="timeline-card-content">&middot; Worked as a Full Stack Developer on a Dashboard
+which was used to Visualize Ad Data. Used various
+visualisation components in React.</div>
+                                <div className="timeline-card-content">&middot; Daily tasks included making React components.</div>
                                 <div className="timeline-card-time">July 2019 - June 2021</div>
                             </div>
 
                             <div className="timeline-card timeline-card-blue">
                                 <div className="timeline-card-title">Machine Learning Intern</div>
                                 <div className="timeline-card-subtitle">Mobicule Technologies Pvt. Ltd.</div>
-                                <div className="timeline-card-content">&middot; Point 1</div>
-                                <div className="timeline-card-content">&middot; Point 2</div>
+                                <div className="timeline-card-content">&middot; Worked on a OCR application to scan ID proof and do the KYC of the customer.</div>
+                                <div className="timeline-card-content">&middot; Daily tasks included working on the android app which was later shown to the client.</div>
                                 <div className="timeline-card-time">Dec 2018 - Jan 2019</div>
                             </div>
 

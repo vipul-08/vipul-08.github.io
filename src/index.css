@@ -537,6 +537,18 @@ a, a:active, a:hover {
     background-image: url(assets/projects/website.png);
 }
 
+.project-card-automation {
+    background-image: url(assets/projects/automation.jpeg);
+}
+
+.project-card-kagglist {
+    background-image: url(assets/projects/kagglist.webp);
+}
+
+.project-card-mychat {
+    background-image: url(assets/projects/mychat.png);
+}
+
 .project-card-summarizer {
     background-image: url(assets/projects/summarizer.png);
 }
