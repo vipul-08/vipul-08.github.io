@@ -445,12 +445,12 @@ a, a:active, a:hover {
     font-size: 1.125rem;
 }
 
-.project {
+.project, .award {
     position: relative;
     background: none;
 }
 
-.project:after {
+.project:after, .award:after {
     content: "";
     position: fixed;
     top: 0;
@@ -463,47 +463,47 @@ a, a:active, a:hover {
     background-size: cover;
 }
 
-.project-row {
+.project-row, .award-row {
     justify-content: flex-start;
     flex-wrap: wrap;
 }
 
 @media (max-width:767px) {
-    .project-row {
+    .project-row, .award-row {
         flex-direction: row;
     }
 }
 
 @media (max-width:575px) {
-    .project-row {
+    .project-row, .award-row {
         flex-direction: column;
     }
 }
 
-.project-col {
+.project-col, .award-col {
     display: flex;
     flex: 0 0 33.33332%;
     justify-content: center;
 }
 
 @media (max-width:991px) {
-    .project-col {
+    .project-col, .award-col {
         flex: 0 0 50%;
     }
 }
 
 @media (max-width:575px) {
-    .project-col {
+    .project-col, .award-col {
         flex: 0 0 100%;
     }
 }
 
-.project-container {
+.project-container, .award-container {
     padding-top: 3rem;
     min-height: 100vh;
 }
 
-.project-card {
+.project-card, .award-card {
     position: relative;
     display: inline-block;
     margin: 1rem 1rem 2rem;
@@ -515,18 +515,18 @@ a, a:active, a:hover {
 }
 
 @media (max-width:575px) {
-    .project-card {
+    .project-card, .award-card {
         width: 32rem;
     }
 }
 
 @media (max-width:479px) {
-    .project-card {
+    .project-card, .award-card {
         width: 100%;
     }
 }
 
-.project-card-cover {
+.project-card-cover, .award-card-cover {
     height: 18rem;
     background-size: cover;
     background-position: 50%;
@@ -535,6 +535,22 @@ a, a:active, a:hover {
 
 .project-card-website {
     background-image: url(assets/projects/website.png);
+}
+
+.award-card-sih {
+    background-image: url(assets/certificates/SIHCertificate.png);
+}
+
+.award-card-endowment {
+    background-image: url(assets/certificates/MostDeserving.png);
+}
+
+.award-card-ideathon {
+    background-image: url(assets/certificates/Ideathon.jpg);
+}
+
+.award-card-spot {
+    background-image: url(assets/certificates/SpotAward.png);
 }
 
 .project-card-automation {
@@ -573,7 +589,7 @@ a, a:active, a:hover {
     padding: 1rem;
 }
 
-.project-card-title {
+.project-card-title, .award-card-title {
     font-size: 2rem;
     color: white;
 }
@@ -602,6 +618,31 @@ a, a:active, a:hover {
     background: black;
 }
 
+.award-card-btn {
+    position: absolute;
+    display: inline-block;
+    bottom: .5rem;
+    right: .5rem;
+    padding: .75rem 1.5rem;
+    font-size: 1.2rem;
+    color: white;
+    background: #20a0ff;
+    border-radius: 2rem;
+    transition: all .2s linear;
+    border: .1em solid transparent;
+    cursor: pointer;
+}
+
+.award-card-btn:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    border: .1em solid white;
+}
+
+.award-card-blackbutton {
+    background: black;
+}
+
 .footer {
     background-color: black;
     color: white;
@@ -613,4 +654,5 @@ a, a:active, a:hover {
 #redir {
     color: #20a0ff;
     text-decoration: underline;
+    cursor: pointer;
 }
