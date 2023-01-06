@@ -1,5 +1,6 @@
 import React from 'react';
 import laptopSvg from '../../assets/vipulVector.png'
+import {RESUME_LINK,  GIT_LINK, LINKEDIN_LINK, TWITTER_LINK} from '../../constants'
 
 const Home = () => {
     return (
@@ -13,15 +14,15 @@ const Home = () => {
 
                     <div className="hero-profile-content">
                         <div className="hero-headline">Vipul Singh Raghuvanshi</div>
-                        <div className="hero-text">Software Engineer II</div>
-                        <div className="hero-text">at Hashedin by Deloitte</div>
+                        <div className="hero-text">Senior Applications Enginner (IC3)</div>
+                        <div className="hero-text">at Oracle</div>
                     </div>
 
                     <div className="hero-icons">
-                        <a title="Github" href="https://github.com/vipul-08" target="_blank" className="icon-link" rel="noreferrer"><i className="fab fa-github"></i> </a>
-                        <a title="Linkedin" href="https://www.linkedin.com/in/vipul-08/" target="_blank" className="icon-link" rel="noreferrer"><i className="fab fa-linkedin"></i></a>
-                        <a title="Twitter" href="https://twitter.com/_VipulSingh_" target="_blank" className="icon-link" rel="noreferrer"><i className="fab fa-twitter"></i></a>
-                        <a title="Resume" href="https://drive.google.com/file/d/1K1JjkFjx9OA1lrpR_66OL9ozpEb9Io2m/view?usp=sharing" target="_blank" className="icon-link" rel="noreferrer"><i className="fa fa-solid fa-book"></i></a>
+                        <a title="Github" href={GIT_LINK} target="_blank" className="icon-link" rel="noreferrer"><i className="fab fa-github"></i> </a>
+                        <a title="Linkedin" href={LINKEDIN_LINK} target="_blank" className="icon-link" rel="noreferrer"><i className="fab fa-linkedin"></i></a>
+                        <a title="Twitter" href={TWITTER_LINK} target="_blank" className="icon-link" rel="noreferrer"><i className="fab fa-twitter"></i></a>
+                        <a title="Resume" href={RESUME_LINK} target="_blank" className="icon-link" rel="noreferrer"><i className="fa fa-solid fa-book"></i></a>
                     </div>
 
                     <a className="arrow fa fa-arrow-down fa-3x" href="#about"></a>
